@@ -1,5 +1,8 @@
 .bg {
   // background-image:  ;
+  background-image: -webkit-linear-gradient( 270deg,rgba(255, 102, 0, 0.623) 30%, transparent), url('../../../assets/background/bg_four.jpeg');
+  background-image: -o-linear-gradient( 270deg,rgba(255, 102, 0, 0.623) 30%, transparent), url('../../../assets/background/bg_four.jpeg');
+  background-image: -moz-linear-gradient( 270deg,rgba(255, 102, 0, 0.623) 30%, transparent), url('../../../assets/background/bg_four.jpeg');
   background-image: linear-gradient( 270deg,rgba(255, 102, 0, 0.623) 30%, transparent), url('../../../assets/background/bg_four.jpeg');
   width: 100%;
   height: 100vh;

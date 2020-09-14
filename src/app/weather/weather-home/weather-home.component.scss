@@ -1,0 +1,12 @@
+.bg {
+  // background-image:  ;
+  background-image: linear-gradient( 270deg,rgba(255, 102, 0, 0.623) 30%, transparent), url('../../../assets/background/bg_four.jpeg');
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 60%;
+  background-attachment: scroll;
+  background-origin: border-box;
+  background-clip: content-box;
+}

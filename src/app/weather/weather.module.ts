@@ -10,6 +10,9 @@ import { WeatherHomeComponent } from './weather-home/weather-home.component';
   imports: [
     CommonModule,
     WeatherRoutingModule
+  ],
+  exports: [
+    WeatherHomeComponent
   ]
 })
 export class WeatherModule { }

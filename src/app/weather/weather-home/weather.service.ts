@@ -16,7 +16,7 @@ export class WeatherService {
   public getWeather(cityName: string): Observable<any> {
     const param = {
       q: cityName,
-      appid: '598b49bd847337ccf9a8a3834a129490',
+
       units: 'imperial'
     };
     return this.http

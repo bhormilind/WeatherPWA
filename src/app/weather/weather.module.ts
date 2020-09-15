@@ -5,6 +5,7 @@ import { WeatherRoutingModule } from './weather-routing.module';
 import { WeatherHomeComponent } from './weather-home/weather-home.component';
 import { MatImportModule } from './_common/mat-import.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     WeatherRoutingModule,
     MatImportModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   exports: [
     WeatherHomeComponent
